@@ -5,8 +5,7 @@ export const cartReducer = (intialState = [], action) => {
     return intialState;
   } else {
     console.log("no action called");
-    
-
+    console.log("removed extra space")
     return intialState
   }
 };
