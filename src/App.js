@@ -1,10 +1,11 @@
-import ProductPage from "./produtsPage/ProductPage";
+import ProductPage from "./Components/produtsPage/ProductPage";
+import NavBar from "./Components/NavBar/NavBar";
 
 function App() {
-  
   return (
     <div className="App">
-      <ProductPage/>
+      <NavBar />
+      <ProductPage />
     </div>
   );
 }
